@@ -1,0 +1,36 @@
+{
+  "name": "The Tech Blog",
+  "version": "1.0.0",
+  "description": "A CMS-style blog site where developers can publish their blog posts and comment on other developers'posts as well.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisFGarciaN/The-Tech-Blog.git"
+  },
+  "author": "Luis Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisFGarciaN/The-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/LuisFGarciaN/The-Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "install": "^0.13.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
